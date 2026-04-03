@@ -1,0 +1,12 @@
+name: f550-ex2
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - openai
+      - numpy
+      - pandas
+      - pypdf
+      - requests

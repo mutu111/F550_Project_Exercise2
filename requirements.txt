@@ -1,0 +1,15 @@
+openai
+numpy
+pandas
+pypdf
+requests
+
+
+
+# pip install -r requirements.txt
+
+# python3 -m venv venv
+# source venv/bin/activate
+# pip install -r requirements.txt
+# export OPENAI_API_KEY="Your Key"
+# python3 main.py
