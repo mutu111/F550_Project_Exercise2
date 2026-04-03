@@ -47,14 +47,18 @@ Activate the environment:
 conda activate f550-ex2
 ```
 
+Install dependencies from `requirements.txt`:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## API Key Setup
 
-Create a `.env` file in the project root based on `.env.example`.
+Set the API key in PowerShell before running the project:
 
-Example:
-
-```env
-OPENAI_API_KEY=your_openai_key_here
+```powershell
+$env:OPENAI_API_KEY="your_api_key_here"
 ```
 
 Notes:
